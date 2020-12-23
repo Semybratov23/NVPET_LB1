@@ -1,0 +1,94 @@
+.main{
+	text-align: center
+}
+
+p {
+	font-size: 25px;
+	font-family: Verdana;
+
+	}
+
+h1{
+	font-style: italic;
+
+	}
+
+h3 {
+	font-style: italic;
+	font-size: 28px;
+}
+
+.sm{
+	font-size: 25px;
+	font-family: Verdana;
+}
+
+ol{
+	font-size: 25px;
+	font-family: Verdana;
+}
+
+.photo {
+	font-size: 25px;
+	font-style: italic;
+}
+
+ul{
+	font-size: 25px;
+	font-family: Verdana;
+}
+
+
+
+.title{
+		font-size: 40px;
+		font-weight: 700px;
+}
+
+body {
+	background-image: url(https://s-sd.ru/images/cms/thumbs/a5b0aeaa3fa7d6e58d75710c18673bd7ec6d5f6d/animfon_1200_auto_jpg.jpg); 
+	color: #73D3FF;
+}
+
+.menu{
+	word-spacing: 50px;
+}
+
+
+.animation1{
+	animation-duration: 1s;
+	animation-name: slidein;
+	}
+
+
+	@keyframes slidein {
+		from{
+			margin-left: 100%;
+			width: 300%;
+		}
+
+		to{
+			margin-left: 0%;
+			width: 100%;
+		}
+	}
+
+.title{
+	animation-duration: 1s;
+	animation-name: slidein;
+	}
+
+
+	@keyframes slidein {
+		from{
+			margin-left: 100%;
+			width: 300%;
+		}
+
+		to{
+			margin-left: 0%;
+			width: 100%;
+		}
+	}
+
+
